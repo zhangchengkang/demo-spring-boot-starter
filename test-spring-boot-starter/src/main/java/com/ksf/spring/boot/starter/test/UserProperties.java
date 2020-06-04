@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Configuration;
 
 @Data
 @Configuration
-@ConditionalOnProperty(prefix = "test.client", name = "enable", havingValue = "true")
-@ConfigurationProperties(prefix = "test.client")
+@ConditionalOnProperty(prefix = "test.client", name = "enable", havingValue = "true")//当配置文件中test.client.enabled=true时,才会注入
+@ConfigurationProperties(prefix = "test.client")//批量注入配置文件,前提是前缀匹配
 public class UserProperties {
 
     private String ip;
