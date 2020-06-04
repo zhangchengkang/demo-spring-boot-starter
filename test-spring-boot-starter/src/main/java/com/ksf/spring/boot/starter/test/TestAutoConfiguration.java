@@ -1,4 +1,4 @@
-package com.ksf.spring.boot.starter.test.test1;
+package com.ksf.spring.boot.starter.test;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableConfigurationProperties({UserProperties.class})
 @ConditionalOnBean({UserProperties.class})
-public class TestOneAutoConfiguration {
+public class TestAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean

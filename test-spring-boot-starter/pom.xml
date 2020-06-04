@@ -6,7 +6,7 @@
         <groupId>com.ksf.spring.boot.starter.demo</groupId>
         <artifactId>demo-spring-boot-starter</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <groupId>com.ksf.spring.boot.starter.test</groupId>

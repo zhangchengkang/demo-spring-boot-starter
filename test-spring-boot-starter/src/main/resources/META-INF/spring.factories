@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.ksf.spring.boot.starter.RocketMQAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.ksf.spring.boot.starter.test.TestAutoConfiguration

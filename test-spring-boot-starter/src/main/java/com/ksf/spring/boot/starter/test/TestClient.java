@@ -1,4 +1,4 @@
-package com.ksf.spring.boot.starter.test.test1;
+package com.ksf.spring.boot.starter.test;
 
 import lombok.Builder;
 import lombok.Data;
