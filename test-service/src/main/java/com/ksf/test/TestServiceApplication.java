@@ -1,4 +1,4 @@
-package com.ksftestservice;
+package com.ksf.test;
 
 import com.ksf.spring.boot.starter.test.TestClient;
 import org.springframework.beans.factory.annotation.Autowired;
