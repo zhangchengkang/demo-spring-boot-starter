@@ -20,6 +20,7 @@ public class TestServiceApplication {
     @Autowired
     private TestClient testClient;
 
+
     @GetMapping("/init")
     public String init() {
         return testClient.getAddress();
